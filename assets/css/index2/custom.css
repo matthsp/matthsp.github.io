@@ -122,9 +122,8 @@
 	display: none;
 }
 
-/** **/
-.subtitle {
-	display: block;
+.services .hexagon {
+	cursor: default;
 }
 
 .full_block {
