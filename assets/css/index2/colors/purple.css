@@ -1,0 +1,45 @@
+.header-btn,.red-btn,.subscribe-btn{
+		background:#7e3794; 
+}
+.header-subtitle,.header-text{
+	color:#7e3794;
+}
+.portfolio-filter button:hover, .portfolio-filter button.is-checked{
+	background:#7e3794; 
+	color: #fff;
+	border-color:#7e3794;
+}
+.btn.dark{
+	border-color:#7e3794;
+	background:#7e3794;
+}
+.red{
+	background: #7e3794;
+}
+.address-left .email, .address-right .email,.navigation a:hover,.navigation a.active{
+	color: #7e3794;
+}
+.menu-hexagon-in2 {
+  background:  #b4327c;
+}
+.to-top{
+	background-color: #7e3794;
+}
+.partners .owl-theme .owl-dots .owl-dot:hover span,.header-slider .owl-theme .owl-dots .owl-dot:hover span,.header-slider .owl-theme .owl-dots .owl-dot.active span,.partners .owl-theme .owl-dots .owl-dot.active span,.testimonial .owl-carousel .owl-controls .owl-dots .owl-dot:hover span,.testimonial .owl-theme .owl-dots .owl-dot.active span{
+	border-color: #7e3794;
+}
+#preloader {
+	background-color: #7e3794;	
+}
+.portfolio-container .element-item .overlay {
+	    background-color: rgba(126, 55, 148, 0.9);
+}
+div.dark_square .pp_left, div.dark_square .pp_middle, div.dark_square .pp_right, div.dark_square .pp_content{
+		background-color: transparent;	
+}
+.bottom .container .footer-menu a:hover{
+	color:#7e3794;
+}
+.layer h1{
+    color:#7e3794;
+}

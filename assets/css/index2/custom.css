@@ -1,0 +1,192 @@
+/** social list fix (in the menu) **/
+.nav-social {
+	width: 150px;
+}
+
+/** parallax header fix **/
+.layer .speaker1 {
+	width: auto;
+}
+.layer .speaker2 {
+	width: auto;
+	padding-left: 820px;
+}
+.layer .imac {
+	padding-left: 190px;
+}
+.layer .headphone {
+	padding-top: 300px;
+	margin-left: -40px;
+}
+
+.layer.intro, div.intro {
+	margin-left: 290px;
+}
+@media screen and (max-width: 1024px)  {
+    #parallax-slider div.intro{
+        display: block;
+    }
+    .layer.intro, div.intro{
+    	left:50%;
+    	margin-left: -150px;
+    	text-align: center;
+    	z-index: 3;
+    	top:-50px;
+   	}
+} 
+@media screen and (max-width: 700px) {   
+    #parallax-slider div.intro{
+    	display: block;
+    }
+    .layer.intro, div.intro{
+        position: absolute;
+        left:50%;
+        margin-left: -152px;
+        text-align: center;
+        z-index: 3;
+        top:-70px;
+    }
+}
+
+/** **/
+.about-social a:hover {
+	background-color: #fff;
+	color: #414141;
+}
+.about-social .fa:hover {
+	color: #414141;	
+}
+
+/** chart fix **/
+@media screen and (max-width:990px) {
+	#canvas-holder .chart-green {
+		left: 75px;
+	  	top: 15px;
+	}
+	#canvas-holder .chart-blue {
+	    left: 140px;
+	    top: 160px;
+	}
+	#canvas-holder .chart-yellow {
+	    left: 95px;
+	    top: 365px;
+	}	
+	#canvas-holder .chart-red {
+		right: 20px;
+	    top: 230px;
+	}
+}
+@media screen and (min-width:991px) and (max-width:1199px) {
+	#canvas-holder .chart-green {
+		left: 75px;
+	  	top: 15px;
+	}
+	#canvas-holder .chart-blue {
+	    left: 140px;
+	    top: 160px;
+	}
+	#canvas-holder .chart-yellow {
+	    left: 95px;
+	    top: 365px;
+	}	
+	#canvas-holder .chart-red {
+		right: 20px;
+	    top: 230px;
+	}
+}
+@media screen and (min-width: 1200px)  {
+	#canvas-holder .chart-green {
+		left: 180px;
+	  	top: 10px;
+	}
+	#canvas-holder .chart-blue {
+	    left: 240px;
+	    top: 160px;
+	}
+	#canvas-holder .chart-yellow {
+	    left: 200px;
+	    top: 370px;
+	}		
+	#canvas-holder .chart-red {
+		right: 103px;
+	    top: 230px;
+	}
+}
+.doughnutSummaryTitle + h1 {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	margin-top: -12.5%;
+}
+.doughnutSummaryNumber {
+	display: none;
+}
+
+/** **/
+.subtitle {
+	display: block;
+}
+
+.full_block {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0px;
+    clear: none;
+    text-align: left;
+}
+
+.full_block > h3, .full_block > p, .full_block > ul {
+	margin-left: 15px;
+}
+.full_block img.logo {
+	width: 175px;
+}
+
+/** More about me **/
+.services h2 {
+	color: #4B4B4B;
+}
+
+/** testimonial **/
+.testimonial-img, .testimonial-img img {
+	border-radius: 0;
+}
+.testimonial-img img {
+	width: 150px;
+	height: auto;
+}
+
+
+
+/** contact **/
+.contact dl {
+	margin-top: 32px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border-top: 1px solid #414141;
+}
+.contact dl dt {
+	text-transform: uppercase;
+	height: 53px;
+	padding: 25px 0 0 0;
+}
+.contact dl dd {
+	padding: 0 0 15px 0;
+	height: 52px;
+	border-bottom: 1px solid #414141;
+}
+.contact .footer {
+	background-image: url("../../images/binary.png");
+	background-repeat: repeat;
+	background-color: #2E3037;
+	margin-top: 180px;
+}
+
+.nav-social .fa-linkedin:hover {
+  color: #000;
+}
+.social-bottom .fa:hover {
+	color: #fff;
+}
