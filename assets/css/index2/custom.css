@@ -152,11 +152,6 @@
 	margin: 0;
 	margin-bottom: 20px;
 }
-.experience-content img.logo {
-	display: inline;
-	height: 40px;
-	width: auto;
-}
 .experience-content > h3, .experience-content > p, .experience-content > ul {
 	margin-left: 15px;
 }
