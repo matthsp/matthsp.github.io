@@ -36,10 +36,11 @@
     }
     .layer.intro, div.intro{
     	left:50%;
-    	margin-left: -150px;
+    	margin-left: -110px;
     	text-align: center;
     	z-index: 3;
     	top:-50px;
+    	padding-top: 285px;
    	}
 } 
 @media screen and (max-width: 700px) {   
@@ -49,10 +50,11 @@
     .layer.intro, div.intro{
         position: absolute;
         left:50%;
-        margin-left: -152px;
+        margin-left: -110px;
         text-align: center;
         z-index: 3;
         top:-70px;
+        padding-top: 285px;
     }
 }
 
