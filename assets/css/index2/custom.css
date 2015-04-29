@@ -1,3 +1,11 @@
+/** DEVICON FONT **/
+@font-face {
+  font-family: 'devicon';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../../fonts/devicon.woff) format('woff'), url(../../fonts/devicon.ttf) format('ttf'), url(../../fonts/devicon.eof) format('eof');
+}
+
 /** social list fix (in the menu) **/
 .nav-social {
 	width: 150px;
@@ -126,20 +134,39 @@
 	cursor: default;
 }
 
-.full_block {
+/** JEDI **/
+.experience-content {
     float: left;
     width: 100%;
     margin: 0;
     padding: 15px 0px;
     clear: none;
     text-align: left;
+    margin-bottom: 30px;
 }
 
-.full_block > h3, .full_block > p, .full_block > ul {
+.experience-content .subtitle {
+	text-align: center;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.experience-content img.logo {
+	display: inline;
+	height: 40px;
+	width: auto;
+}
+.experience-content > h3, .experience-content > p, .experience-content > ul {
 	margin-left: 15px;
 }
-.full_block img.logo {
-	width: 175px;
+.experience-content .technologies, .experience-content .technologies ul {
+	margin-top: 20px;
+}
+.experience-content .technologies ul li {
+	vertical-align: top; 
+	margin-bottom: 10px;
+}
+.experience-content .technologies ul li .devicon {
+	font-size: 48px;
 }
 
 /** More about me **/
@@ -156,7 +183,13 @@
 	height: auto;
 }
 
-
+@media (max-width: 47.99em) {
+.portfolio_grid .grid_block {
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
 
 /** contact **/
 .contact dl {
@@ -189,3 +222,4 @@
 .social-bottom .fa:hover {
 	color: #fff;
 }
+
